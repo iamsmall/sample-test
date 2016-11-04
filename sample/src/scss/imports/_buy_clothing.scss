@@ -1,0 +1,40 @@
+/* 
+=============================================
+Buy Clothing Section 
+=============================================
+*/
+
+
+
+.buy-clothing-section {
+
+
+	background-image:    url('../img/topsection-background.png');
+	 
+	   background-repeat:no-repeat;
+  	background-size:cover;
+  	margin-top:-20px;
+
+  	width:100%;
+  
+  	.clothing-bg{
+
+  		background:rgba(0,0,0,0.5);
+  		
+  	}
+
+  		
+  	img{
+
+    width:85%;
+  }
+
+  	
+  	h1{
+
+        font-size:2em;
+    }
+  
+}
+
+

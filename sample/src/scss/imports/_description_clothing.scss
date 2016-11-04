@@ -1,0 +1,23 @@
+/* 
+=============================================
+Clothing Description Section 
+=============================================
+*/
+
+
+.clothing-article{
+	background:$description-bg-color;
+
+	
+}
+
+
+.clothing-content-body{
+	
+	a,a:hover,a:focus,a:visited{
+		color:$text-color;
+		text-decoration:underline;
+		cursor:pointer;
+	}
+
+}
