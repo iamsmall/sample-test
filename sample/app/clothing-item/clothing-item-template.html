@@ -1,0 +1,87 @@
+<div ng-repeat="item in $ctrl.items" class="col-sm-6 col-md-8 col-lg-8 col-sm-offset-3 col-md-offset-2 clothing-content">
+    <div class="col-md-5 col-md-offset-2 no-margin-left clothing-content-body">
+        <p><a>Clothing</a> > Outerwear</p>
+        <img ng-src="img/{{item.itemimage}}">
+    </div>
+    <div class="col-md-6">
+        <h1 class="nowrap" ng-bind-html="item.title"></h1>
+
+
+        <ul class="text-uppercase clothinglist" ng-bind-html="item.clothinglist">
+
+        </ul>
+
+        <div class="quantity-color-section">
+            <div class="btn-group">
+
+
+                <button type="button" class="btn item-btn-style">Select a Size</button>
+                <button type="button" class="btn btn-select-style dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+
+                <div class="dropdown-menu">
+                    <div class="dropdown-divider"> <a class="dropdown-item" href="#">Small</a>
+                    </div>
+                    <div class="dropdown-divider"><a class="dropdown-item" href="#">Medium</a>
+                    </div>
+                    <div class="dropdown-divider"><a class="dropdown-item" href="#">Large</a>
+                    </div>
+                    <div class="dropdown-divider"><a class="dropdown-item" href="#">Extra Large</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="btn-group">
+                <button type="button" class="btn item-btn-style">Select a Color</button>
+                <button type="button" class="btn btn-select-style dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-divider">
+                        <a class="dropdown-item" href="#">Blue</a>
+                    </div>
+                    <div class="dropdown-divider"> <a class="dropdown-item" href="#">Red</a>
+                    </div>
+                    <div class="dropdown-divider"><a class="dropdown-item" href="#">Silver</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+
+
+            <div class="btn-group btn-md quantity-select">
+                <span><i>Quantity Selected</i></span>
+                <select class="form-control select-box-style no-border">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div class="btn-group add-to-cart-btn">
+                <button type="submit" class="btn add-to-cart-style" aria-haspopup="true" aria-expanded="false">
+                    Add To Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+</div>

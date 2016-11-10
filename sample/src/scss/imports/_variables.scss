@@ -2,36 +2,44 @@
 
 //Global Colors
 
-	$header-bg-color:#000;
-	$footer-bg-color:#000;
-	$main-nav-bg-color:#ececec;
-	$reviews-bg-color:#00314f;
-	
-	$description-bg-color:#898989;
-
-	$highlight-bg-color:#4698a4;
-	$highlight-txt-color:#ececec;
+		$header-bg-color:#000;
+		$footer-bg-color:#000;
+		$main-nav-bg-color:#ececec;
+		$reviews-bg-color:#00314f;
+	    $description-bg-color:#898989;
+		$highlight-bg-color:#4698a4;
+		$highlight-txt-color:#ececec;
 
 // Global Fonts
  
-$font-family-sans-serif:  "Raleway", Helvetica, Arial, sans-serif;
-
-$body-text-color:#fff;
-
-$text-color:$body-text-color;
+		$font-family-sans-serif:  "Raleway", Helvetica, Arial, sans-serif;
+		$body-text-color:#fff;
+		$text-color:$body-text-color;
+		$div-section-opacity:0.2; //Opacity for section divs
 
 // Buttons Colors 
 
-	$nav-button-color:#ececec;
-	$nav-text-color:#2c5362;
-	$hover-bg-color:#4698a4;
-	$hover-text-color:#ececec;
+		$nav-button-color:#ececec;
+		$hover-bg-color:#4698a4;
+		$hover-text-color:#ececec;
+		$nav-text-color:#2c5362;
 
 
 // Dropdown Menu Colors 
 
-	$dropdown-bg-color:#fff;
-	$dropdown-hl-bg-color:$highlight-bg-color;
-	$dropdown-text-hl-color:$highlight-txt-color;
-	$dropdown-text-color:#000;
+		$dropdown-bg-color:#fff;
+		$dropdown-hl-bg-color:$highlight-bg-color;
+		$dropdown-text-hl-color:$highlight-txt-color;
+		$dropdown-text-color:#000;
 
+//Item Btn Colors
+
+		  $item-color-txt:#fff;
+		  $item-btn-color:#678792;
+		  $item-btn-hover:#1e7b88;
+
+//Modal Window Colors
+
+		$submit-modal-btn-color:#4698a4;
+		$submit-modal-btn-hover:#1e7b88;
+		$submit-modal-border-color:#464646;

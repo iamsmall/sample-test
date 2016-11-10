@@ -1,0 +1,12 @@
+
+
+
+ <div ng-repeat="recipe in $ctrl.recipes" class="recipes-list col-md-5 col-md-offset-2 ">
+      <img ng-src="img/{{recipe.image}}">
+    </div>
+    <div ng-repeat="recipe in $ctrl.recipes" class="col-md-3">
+      
+      <p ng-bind-html="recipe.description"></p>
+      
+      
+    </div> 

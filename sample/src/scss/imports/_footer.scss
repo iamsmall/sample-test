@@ -5,6 +5,53 @@ Footer Section
 */
 
 .footer {
-	
+	padding-top:29px;
+	padding-bottom:29px;
 	background:$footer-bg-color;
+
+	.footer-logo{
+		width:125px;
+		
+		
+	}
+
+	.footer-logo-row{
+		background:red; 
+		margin-left:210px;
+	}
+
+	//Footer Navigation
+	.footer-nav ul > li{
+		margin:0;
+		padding:0;
+		display:inline;
+
+	}
+
+	
+
+	.footer-nav ul li > a,a:hover,a:active,a:focus{
+		color:#fff;
+		text-decoration:none;
+		padding-right:10px;
+		padding-left:8px;
+		text-align:center;
+		font-size:.9em;
+	}
+}
+
+
+.footer-btn-border{
+	border-right:1px solid #fff;
+}
+
+.fb-icon{
+	width:9px;
+	height:18px;
+}
+
+.twitter-icon{
+	width:23px;
+	height:23px;
+	float:left;
 }

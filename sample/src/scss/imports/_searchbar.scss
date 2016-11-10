@@ -10,4 +10,147 @@ Search Bar Section
 .search-section{
 	
 	background:$header-bg-color;
+	@include section-shadow-bottom($div-section-opacity);
+	.logo{
+
+		width:80%;
+
+
+		@media (min-width: 768px){
+    
+        	width:50%;
+    	}
+	}
 }
+
+
+.search-padding-bottom{
+	
+	padding-bottom:20px;
+}
+
+
+.search-padding-top{
+	
+	padding-top:20px;
+}
+
+
+.btn-info{
+	background:#fff;
+	color:#000;
+	font-size:16px;
+	border:none;
+	border-radius:0;
+	height: 26px;
+}
+
+.btn-info:hover,.btn-info:focus{
+	background:#fff;
+	color:#000;
+}
+
+
+
+.search-txt{
+	border-radius:0;
+	border:0;
+}
+
+
+.input-group[class*="col-"]{
+	width:295px;
+	padding-right:20px;
+}
+
+
+//Searchbar Navigation
+	.searchbar-navigation{
+		
+		
+
+		ul{
+		 /*padding-right:20px;*/
+		 }
+		 ul > li{
+			margin:0;
+			padding:0;
+			display:inline;
+
+		}
+
+		a,a:hover,a:focus{
+			color:#fff;
+			text-decoration:none;
+			font-size:1em;
+		}
+	}
+
+
+	.searchnav-padding{
+		position: relative;
+    	left: -60px;
+	}
+
+
+	.search-textbar{
+
+		float: right;
+    	width: 299px;
+    	height: 26px;
+    	border-radius:0;
+    	border:none;
+
+	}
+
+	.one-line-ul{
+		margin:0;
+		padding:0;
+		display:inline;
+	}
+
+	//Search Button Magnyfing glass Icon
+
+	.glyphicon-padding{
+
+    		top: -5px;
+    	}
+	 
+    // Navigation border padding
+
+	.li-border-right{
+
+		border-right:1px solid #fff;
+		
+	}
+
+	.li-padding-right{
+		padding-right:20px;
+	}
+
+	.li-padding-left{
+		padding-left:10px;
+	}
+
+	//Facebook and Twitter Icons
+	.fb-icon-search {
+	    width: 9px;
+	    height: 18px;
+	    position: relative;
+	    top: 20px;
+
+	}
+
+	.twitter-icon-search{
+		width:25px;
+		height:25px;
+		float:left;
+		margin-left:15px;
+}
+
+
+
+
+
+
+

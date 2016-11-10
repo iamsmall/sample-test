@@ -7,7 +7,9 @@ Clothing Description Section
 
 .clothing-article{
 	background:$description-bg-color;
-
+	padding-top:18px; 
+	padding-bottom:200px;
+	@include section-shadow-inset($div-section-opacity);
 	
 }
 
